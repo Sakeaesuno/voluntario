@@ -1,3 +1,31 @@
 body{
     background-color: black;
 }
+tr{
+    color:white;
+}
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color:#A39D9D;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+
+ul#menu li a:hover {
+    background-color:#E1DEDE;
+}
+div{
+    background-color:#A39D9D;
+}
+a{
+    color:#FA6934;
+}

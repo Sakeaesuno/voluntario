@@ -9,6 +9,7 @@
     <link href="estilo2.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <center>
     <header>
             <table>
                     <tr>
@@ -30,11 +31,32 @@
                                 <tr><a href="https://twitter.com/CafeMercedesJaz/" alt="twitter Mercedes"><img src="img2\tw.PNG"></a></tr>
                                 <tr><a href="https://plus.google.com/103857288973088828408" alt="google Mercedes"><img src="img2\go.PNG"></a></tr>
                                 <tr><a href="https://www.youtube.com/user/CafeMercedesJazz" alt="Youtube Mercedes"><img src="img2\yo.PNG"></a></tr>
+                                <br>
+                                <tr>Suscribete a la programación:</tr>
+                                <br>
+                                <tr><input type="text" name="texto" value="E-mail"></tr>
+                                <button type="button" onclick="mensaje('Gracias por suscribirte')">Ok</button>
+                                    <script>
+                                        function mensaje(texto) {
+                                            alert(texto);
+                                            }
+                                    </script>
+                                <br>
+                                <tr><a href="http://www.cafemercedes.es/condiciones_suscripcion.php">(*)Condiciones de uso</a></tr>
                             </table>
                         </td>
                     </tr>
             </table>
-
+        <div>
+        <ul id="menu">
+            <li><a href="http://www.cafemercedes.es/index.php">Inicio</a></li>
+            <li><a href="http://www.cafemercedes.es/conciertos.php">Conciertos</a></li>
+            <li><a href="http://www.cafemercedes.es/elclub.php">Club</a></li>
+            <li><a href="http://www.cafemercedes.es/localizacion.php">localizacion</a></li>
+            <li><a href="http://www.cafemercedes.es/contacto.php">contacto</a></li>
+        </ul>
+        </div>
     </header>
+    </center>
 </body>
 </html>
